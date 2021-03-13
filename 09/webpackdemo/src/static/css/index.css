@@ -1,0 +1,25 @@
+@import './demo.css';
+
+:root{
+    --bgColor: yellowgreen;
+}
+body{
+    background-color: var(--bgColor);
+}
+
+.img1{
+    width: 870px;
+    height: 512px;
+    background-image: url(../images/1003.jpg);
+}
+
+.img2{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/min.png);
+}
+
+.demo{
+    width: 1000px;
+    height: 100px;
+}
