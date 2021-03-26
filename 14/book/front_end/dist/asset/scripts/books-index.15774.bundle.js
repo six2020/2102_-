@@ -1,0 +1,1 @@
+(()=>{"use strict";const n=class{init(){console.log("index ====>>>>","index")}};const i=class{init(){console.log("navigate ====>>>>","navigate")}};let t=new n,e=new i;t.init(),e.init()})();
