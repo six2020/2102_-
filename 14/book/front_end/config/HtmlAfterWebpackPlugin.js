@@ -43,8 +43,8 @@ class HtmlAfterWebpackPlugin {
                     console.log(' data.html ====>>>>', data.html );
                     
                     data.html = data.html.replace(/components:/g, '../../../components')
-                    data.html = data.html.replace("<!--injectjs-->", createUrl('js', this._js))
-                    data.html = data.html.replace("<!--injectcss-->", createUrl('css', this._css))
+                    data.html = data.html.replace(/injectjs:/g, createUrl('js', this._js))
+                    data.html = data.html.replace(/injectcss:/g, createUrl('css', this._css))
                    
                     cb(null, data)
                 }
